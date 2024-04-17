@@ -1,0 +1,27 @@
+package compilador;
+
+public enum Tag {
+
+	T_PROGRAMA, T_INICIO, T_FIM,
+
+	T_SE, T_ENTAO, T_SENAO, T_FIMSE,
+
+	T_ENQTO, T_FIMENQTO,
+
+	T_LEIA, T_ESCREVA, T_FACA,
+
+	T_MAIS, T_MENOS, T_VEZES, T_DIV,
+
+	T_MAIOR, T_MENOR, T_IGUAL,
+
+	T_E, T_OU, T_NAO,
+
+	T_ATRIB, T_ABRE, T_FECHA,
+
+	T_INTEIRO, T_LOGICO, T_V, T_F,
+
+	T_IDENTIF, T_NUMERO,
+	
+	T_COMENTLINHA, T_COMENTARIO;
+
+}
